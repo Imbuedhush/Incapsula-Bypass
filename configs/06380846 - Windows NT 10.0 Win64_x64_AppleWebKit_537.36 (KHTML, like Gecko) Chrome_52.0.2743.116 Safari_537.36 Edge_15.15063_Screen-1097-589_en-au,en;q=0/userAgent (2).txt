@@ -1,0 +1,11 @@
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063
+
+
+OS: Windows 10.0 x64
+Browser: Edge 15.15063
+Screen: 1097:589
+Language: en-au,en;q=0.5
+Flash: YES
+Verisign: 199011
+
+

@@ -1,6 +1,6 @@
-Only for educational purposes
+Only for educational purposes.
 
-This servers based on evaluation of Incapsula JS code in "virtual dom" polyfill.
+This server is based on evaluation of Incapsula JS code in "virtual dom" polyfill.
 
 Step1. GET https://website.com/
 Headers:
@@ -32,7 +32,7 @@ Example link: http://localhost:8888/generate
 Postdata: (Parsed jscode of incapsula ;;;;;;(Delimitter)All cookies of the current website) encoded in base64
 Example postdata, not in b64: 
 	(function() { var z="";var b="766....6c2";eval((function(){for (var i=0;i<b.length;i+=2){z+=String.fromCharCode(parseInt(b.substring(i,i+2),16));} return z;})());})(););;;;;;visid_incap_1081500=nrJQPuKmS42sk92ztEMbJWR/O1wAAAAAQUIPAAAAAACSMifOxTGJLk9TH7PqxL9T; incap_ses_247_1081500=lqqUGjtmBlE+aXrXw4VtA2R/O1wAAAAAUYqJJfpeCsHvmm3uLyu5cg==; ___utmvmzVuDFLBB=bqlSyeECjcd; ___utmvazVuDFLBB=BtEUKOd; ___utmvbzVuDFLBB=fZM XUrObalz: Ltp
-Logic: If response contains set-cookie: ___utmvc= in headers then OK else Captcha/block
+	Logic: If response contains set-cookie: ___utmvc= in headers then OK else Captcha/block
 	parse json properties - imgsrc, useragent
 	then need use new useragent in next request
 	
